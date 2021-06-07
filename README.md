@@ -1,4 +1,4 @@
-This fork of bottom-up-attention is modified to suppoprt feature extraction of [UNITER](https://arxiv.org/abs/1909.11740) (ECCV 2020) on NLVR2 images, which can be used through the pre-built [Docker image](https://hub.docker.com/repository/docker/chenrocks/butd-caffe) `chenrocks/butd-caffe:nlvr2`. Please consult [the official UNITER repo](https://github.com/ChenRocks/UNITER) for [usage](https://github.com/ChenRocks/UNITER/blob/master/scripts/extract_imgfeat.sh).
+This fork of bottom-up-attention is used to support feature extraction of faster-rcnn, which can be used through the pre-built [Docker image](https://hub.docker.com/repository/docker/chenrocks/butd-caffe) `chenrocks/butd-caffe:nlvr2`.
 
 
 # bottom-up-attention
