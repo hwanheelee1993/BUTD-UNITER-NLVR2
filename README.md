@@ -10,7 +10,7 @@ This fork of bottom-up-attention is used to support feature extraction of faster
     line 43 MAX_BOXES = 100 -> MAX_BOXES = 36
 
     ```
-    ./tools/generate_npz.py --def models/vg/ResNet-101/faster_rcnn_end2end_final/test.prototxt --cfg experiments/cfgs/faster_rcnn_end2end_resnet.yml --out /output/ --net 
+    python tools/generate_npz.py --def models/vg/ResNet-101/faster_rcnn_end2end_final/test.prototxt --cfg experiments/cfgs/faster_rcnn_end2end_resnet.yml --out /output/ --net 
     data/faster_rcnn_models/resnet101_faster_rcnn_final.caffemodel --prefix butd
     
     ```
