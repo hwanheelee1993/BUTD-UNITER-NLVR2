@@ -16,6 +16,7 @@ This fork of bottom-up-attention is used to support feature extraction of faster
     ```
     The output files will be stored in $PATH_TO_IMG_NPY as follows.
     sample.jpg -> butd_sample.npz
+    (i.e. imgname.jpg -> butd_imgname.npz)
 
     
 
